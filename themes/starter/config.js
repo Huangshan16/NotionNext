@@ -174,7 +174,7 @@ const CONFIG = {
   ],
 
   //   FAQ 常见问题模块
-  STARTER_FAQ_ENABLE: true, // 常见问题模块开关
+  STARTER_FAQ_ENABLE: false, // 常见问题模块开关
   STARTER_FAQ_TITLE: '常见问题解答',
   STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
   STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
@@ -198,9 +198,9 @@ const CONFIG = {
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
+  STARTER_TEAM_TEXT_1: '我们的团队',
   STARTER_TEAM_TEXT_2:
-    'NotionNext 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
+    '描述',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
@@ -342,7 +342,7 @@ const CONFIG = {
   //   }
   // ],
 
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+  // STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
@@ -359,7 +359,7 @@ const CONFIG = {
   STARTER_404_BACK: '回到主页',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://yanmind.com', // 重定向域名
-  STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
+  STARTER_POST_REDIRECT_URL: 'https://yanmind.com' // 重定向域名
+  // STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
