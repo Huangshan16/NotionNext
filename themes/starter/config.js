@@ -16,8 +16,8 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_TEXT: '开始注册', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
     'https://noteforms.com/forms/pzbcql', // 英雄区按钮
-  // STARTER_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-  // STARTER_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://dreamcoach1.authing.cn', // 英雄区按钮
   // STARTER_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/DC.png', // 产品预览图 ，默认读取public目录下图片
