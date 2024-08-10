@@ -27,7 +27,7 @@ const CONFIG = {
   STARTER_NAV_BUTTON_1_URL: 'https://noteforms.com/forms/pzbcql',
 
   STARTER_NAV_BUTTON_2_TEXT: '登录',
-  STARTER_NAV_BUTTON_2_URL: '/signup',
+  STARTER_NAV_BUTTON_2_URL: 'https://dreamcoach1.authing.cn',
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
