@@ -3,7 +3,7 @@
  */
 const CONFIG = {
   // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
-  STARTER_LOGO: '/images/starter/logo/favicon.png', // 普通logo图片 示例：/images/starter/logo/logo.svg
+  STARTER_LOGO: '', // 普通logo图片 示例：/images/starter/logo/logo.svg
   STARTER_LOGO_WHITE: '', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
@@ -131,7 +131,7 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_TEXT:
         '评价',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
+        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe4f391d7-7d65-4c05-a82c-c6e2c40f06e4%2Fa2a7641a26b367608c6ef28ce9b7e983_(2).png?table=block&id=a386eb0e-4c07-4b18-9ece-bba4e79ce21c&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
     STARTER_TESTIMONIALS_ITEM_NICKNAME: '用户名',
       STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '用户背景'
       // STARTER_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
@@ -345,13 +345,13 @@ const CONFIG = {
   // STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
-  STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
+  // STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
 
   STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
+  // STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
 
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
+  // STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
   // 404页面的提示语
   STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
