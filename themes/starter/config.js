@@ -180,13 +180,13 @@ const CONFIG = {
       TITLE: 'uideck'
     },
     {
-      IMAGE: '/images/starter/brands/xhs.jpg',
+      IMAGE: '/images/starter/brands/xhs.png',
       // IMAGE_WHITE: '/images/starter/brands/ayroui-white.svg',
       // URL: 'https://ayroui.com/',
       TITLE: 'ayroui'
     }
   ],
-  
+
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
   STARTER_CONTACT_TITLE: '联系我们',
