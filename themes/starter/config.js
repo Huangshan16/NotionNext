@@ -171,7 +171,7 @@ const CONFIG = {
   STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
   STARTER_BRANDS: [
     {
-      IMAGE: '/images/starter/brands/gzh.jpg',
+      IMAGE: '/images/starter/brands/gzh.png',
       // IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
       // URL: 'https://graygrids.com/',
       TITLE: 'graygrids'
@@ -183,7 +183,7 @@ const CONFIG = {
       TITLE: 'lineicons'
     },
     {
-      IMAGE: '/images/starter/brands/qywx.jpg',
+      IMAGE: '/images/starter/brands/qywx.png',
       // IMAGE_WHITE: '/images/starter/brands/uideck-white.svg',
       // URL: 'https://uideck.com/',
       TITLE: 'uideck'
