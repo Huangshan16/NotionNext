@@ -32,21 +32,21 @@ const CONFIG = {
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'DreamCoach的主要特性', // 特性
+  STARTER_FEATURE_TEXT_1: 'DreamCoach梦校录升学工具箱', // 特性
   STARTER_FEATURE_TEXT_2:
     'DreamCoach的愿景是成为你留学申请中的伙伴。 ', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '特性1', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '特性1描述', // 特性1
+  STARTER_FEATURE_1_TITLE_1: '本科留学全知道', // 特性1
+  STARTER_FEATURE_1_TEXT_1: '申请全流程干货+答疑合集', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '特性', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '特性', // 特性2
+  STARTER_FEATURE_2_TITLE_1: '学科真题库', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '三大国际体系近年真题练习+智能评测', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '特性', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '特性', // 特性3
+  STARTER_FEATURE_3_TITLE_1: '升学竞争力测评', // 特性3
+  STARTER_FEATURE_3_TEXT_1: '深度测试申请各国/各专业获得录取的可能性', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '特性', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '特性', // 特性4
+  STARTER_FEATURE_4_TITLE_1: 'AI升学导师', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '跟踪申请全流程，自动排列优先事项并提前提醒，不错过一个重要节点', // 特性4
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
@@ -159,14 +159,6 @@ const CONFIG = {
     }
   ],
 
-  // 博客文章区块
-  STARTER_BLOG_ENABLE: false, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
-  STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的新闻',
-  STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
-
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
   STARTER_CONTACT_TITLE: '联系我们',
@@ -176,7 +168,7 @@ const CONFIG = {
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
   STARTER_CONTACT_EMAIL_TEXT: 'dreamcoachbt@outlook.com',
 
-  STARTER_FOOTER_SLOGAN: '我们希望成为你的留学伙伴',
+  STARTER_FOOTER_SLOGAN: '做你申请季的定海神针',
 
   // STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
@@ -195,7 +187,7 @@ const CONFIG = {
   STARTER_404_BACK: '回到主页',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://yanmind.com' // 重定向域名
+  STARTER_POST_REDIRECT_URL: 'https://dreamcoach.top' // 重定向域名
   // STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
