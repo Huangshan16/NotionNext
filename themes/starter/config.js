@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '你的留学申请伙伴', // 英雄区文字
-  STARTER_HERO_TITLE_2: '让你无痛度过留学申请时期', // 英雄区文字
+  STARTER_HERO_TITLE_1: '国内首家专注本科留学的信息资源共享平台', // 英雄区文字
+  STARTER_HERO_TITLE_2: '多年留学行业沉淀，每年数百名QS TOP 20名校案例数据库，AI升学导师在线生成留学竞争力提升方案，托起你的名校梦', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '开始注册', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -114,7 +114,7 @@ const CONFIG = {
   STARTER_TESTIMONIALS_TEXT_1: '我们的用户实力',
   STARTER_TESTIMONIALS_TEXT_2:
     '评价',
-  STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
+  // STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TESTIMONIALS_ITEMS: [
