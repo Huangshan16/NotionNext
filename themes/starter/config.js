@@ -159,15 +159,6 @@ const CONFIG = {
     }
   ],
 
-  // 联系模块
-  STARTER_CONTACT_ENABLE: true, // 联系模块开关
-  STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国，北京&上海',
-  STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: 'dreamcoachbt@outlook.com',
-
   STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
   STARTER_BRANDS: [
     {
@@ -195,7 +186,15 @@ const CONFIG = {
       TITLE: 'ayroui'
     }
   ],
-
+  
+  // 联系模块
+  STARTER_CONTACT_ENABLE: true, // 联系模块开关
+  STARTER_CONTACT_TITLE: '联系我们',
+  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
+  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
+  STARTER_CONTACT_LOCATION_TEXT: '中国，北京&上海',
+  STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
+  STARTER_CONTACT_EMAIL_TEXT: 'dreamcoachbt@outlook.com',
 
   STARTER_FOOTER_SLOGAN: '做你申请季的定海神针',
 
