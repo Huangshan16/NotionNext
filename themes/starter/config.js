@@ -11,7 +11,7 @@ const CONFIG = {
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
   STARTER_HERO_TITLE_1: '国内首家本科留学信息共享平台', // 英雄区文字
-  STARTER_HERO_TITLE_2: '多年本科留学行业沉淀，深度分析近千名QS TOP 100大学录取者画像;实时更新当季申请者申请进展及关注热点;AI升学导师在线生成留学竞争力提升方案，定位你的申请季，托起你的名校梦。', // 英雄区文字
+  STARTER_HERO_TITLE_2: '多年本科留学行业沉淀，深度分析近千名QS TOP 100大学录取者画像;\n实时更新当季申请者申请进展及关注热点;\nAI升学导师在线生成留学竞争力提升方案，定位你的申请季，托起你的名校梦。', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '开始注册', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -58,12 +58,12 @@ const CONFIG = {
   // STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
   // 首页ABOUT区块
-  STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
+  STARTER_ABOUT_ENABLE: false, // ABOUT区块开关
   STARTER_ABOUT_TITLE: 'title',
   STARTER_ABOUT_TEXT:
     'test',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
-  STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
+  STARTER_ABOUT_BUTTON_URL: '',
   STARTER_ABOUT_IMAGE_1: '/images/starter/hero/DC.png',
   STARTER_ABOUT_IMAGE_2: '/images/starter/hero/DC.png',
   STARTER_ABOUT_TIPS_1: 'tip1',
@@ -188,7 +188,7 @@ const CONFIG = {
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: '团队成员',
+  STARTER_TEAM_TITLE: '院校录取',
   STARTER_TEAM_TEXT_1: '我们的团队',
   STARTER_TEAM_TEXT_2:
     '描述',
