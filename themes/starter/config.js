@@ -177,7 +177,7 @@ const CONFIG = {
       TITLE: 'graygrids'
     },
     {
-      IMAGE: '/images/starter/brands/fwh.jpg',
+      IMAGE: '/images/starter/brands/fwh.png',
       // IMAGE_WHITE: '/images/starter/brands/lineicons-white.svg',
       // URL: 'https://lineicons.com/',
       TITLE: 'lineicons'
