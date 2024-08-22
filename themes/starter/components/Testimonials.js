@@ -21,7 +21,7 @@ const loadExternal = async () => {
     'js'
   )
 
-  const Swiper = window.Swiper
+  const Swiper = window.Swiper 
   if (!Swiper) {
     return
   }
