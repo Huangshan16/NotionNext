@@ -59,12 +59,12 @@ export const Testimonials = () => {
     loadExternal()
   }, [])
   // 用户评分
-  const ratings = [1, 2, 3, 4, 5]
-  const STARTER_TESTIMONIALS_ITEMS = siteConfig(
-    'STARTER_TESTIMONIALS_ITEMS',
-    [],
-    CONFIG
-  )
+  // const ratings = [1, 2, 3, 4, 5]
+  // const STARTER_TESTIMONIALS_ITEMS = siteConfig(
+  //   'STARTER_TESTIMONIALS_ITEMS',
+  //   [],
+  //   CONFIG
+  // )
   return (
     <>
       {/* <!-- ====== Testimonial Section Start --> */}

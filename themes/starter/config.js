@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '国内首家专注本科留学的信息资源共享平台', // 英雄区文字
-  STARTER_HERO_TITLE_2: '多年留学行业沉淀，每年数百名QS TOP 20名校案例数据库，AI升学导师在线生成留学竞争力提升方案，托起你的名校梦', // 英雄区文字
+  STARTER_HERO_TITLE_1: '国内首家本科留学信息共享平台', // 英雄区文字
+  STARTER_HERO_TITLE_2: '多年本科留学行业沉淀，深度分析近千名QS TOP 100大学录取者画像;实时更新当季申请者申请进展及关注热点;AI升学导师在线生成留学竞争力提升方案，定位你的申请季，托起你的名校梦。', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '开始注册', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -58,17 +58,17 @@ const CONFIG = {
   // STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
   // 首页ABOUT区块
-  STARTER_ABOUT_ENABLE: false, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+  STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
+  STARTER_ABOUT_TITLE: 'title',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
+    'test',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
-  STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
-  STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_IMAGE_1: '/images/starter/hero/DC.png',
+  STARTER_ABOUT_IMAGE_2: '/images/starter/hero/DC.png',
+  STARTER_ABOUT_TIPS_1: 'tip1',
+  STARTER_ABOUT_TIPS_2: 'tip2',
+  STARTER_ABOUT_TIPS_3: 'tip3',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
@@ -112,8 +112,7 @@ const CONFIG = {
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
   STARTER_TESTIMONIALS_TITLE: '我们的战绩',
   STARTER_TESTIMONIALS_TEXT_1: '我们的用户实力',
-  STARTER_TESTIMONIALS_TEXT_2:
-    '评价',
+  // STARTER_TESTIMONIALS_TEXT_2: '',
   // STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
@@ -125,55 +124,7 @@ const CONFIG = {
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fafb21381-f51b-4fd0-9998-800dbeb64dbe%2Favatar.png?table=block&id=195935d2-0d8d-49fc-bd81-1db42ee50840&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
     STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Y同学',
       STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '数学；Alevel',
-      // STARTER_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
-    },
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT:
-        '伦敦政经',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe4f391d7-7d65-4c05-a82c-c6e2c40f06e4%2Fa2a7641a26b367608c6ef28ce9b7e983_(2).png?table=block&id=a386eb0e-4c07-4b18-9ece-bba4e79ce21c&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-    STARTER_TESTIMONIALS_ITEM_NICKNAME: 'G同学',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '社会学；IB'
-      // STARTER_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
-    },
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT:
-        '耶鲁大学',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F6c096b44-beb9-48ee-8f92-1efdde47f3a3%2F338962f1-d352-49c7-9a1b-746e35a7005c%2Fhf.png?table=block&id=ce5a48a9-d77a-4843-a3d9-a78cd4f794ce&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'W同学',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '历史；IB'
-      // STARTER_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
-    },
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT:
-        '文理学院',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Z同学',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '未定向；AP',
-      // STARTER_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
-    },
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT:
-        '芝加哥大学',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fafb21381-f51b-4fd0-9998-800dbeb64dbe%2Favatar.png?table=block&id=195935d2-0d8d-49fc-bd81-1db42ee50840&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Y同学',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '宗教研究；AP',
-      // STARTER_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
-    }
-  ],
-
-  STARTER_TESTIMONIALS_ITEMS: [
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT:
-        '剑桥大学',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fafb21381-f51b-4fd0-9998-800dbeb64dbe%2Favatar.png?table=block&id=195935d2-0d8d-49fc-bd81-1db42ee50840&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-    STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Y同学',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '数学；Alevel',
-      // STARTER_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
+      // STARTER_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'xw
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
