@@ -11,7 +11,7 @@ const CONFIG = {
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
   STARTER_HERO_TITLE_1: '国内首家本科留学信息共享平台', // 英雄区文字
-  STARTER_HERO_TITLE_2: '多年本科留学行业沉淀，深度分析近千名QS TOP 100大学录取者画像;\n实时更新当季申请者申请进展及关注热点;\nAI升学导师在线生成留学竞争力提升方案，定位你的申请季，托起你的名校梦。', // 英雄区文字
+  STARTER_HERO_TITLE_2: '多年本科留学行业沉淀，深度分析近千名QS TOP 100大学录取者画像;实时更新当季申请者申请进展及关注热点;AI升学导师在线生成留学竞争力提升方案，定位你的申请季，托起你的名校梦。', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '开始注册', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -167,6 +167,35 @@ const CONFIG = {
   STARTER_CONTACT_LOCATION_TEXT: '中国，北京&上海',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
   STARTER_CONTACT_EMAIL_TEXT: 'dreamcoachbt@outlook.com',
+
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
+  STARTER_BRANDS: [
+    {
+      IMAGE: '/images/starter/brands/gzh.jpg',
+      // IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
+      // URL: 'https://graygrids.com/',
+      TITLE: 'graygrids'
+    },
+    {
+      IMAGE: '/images/starter/brands/fwh.jpg',
+      // IMAGE_WHITE: '/images/starter/brands/lineicons-white.svg',
+      // URL: 'https://lineicons.com/',
+      TITLE: 'lineicons'
+    },
+    {
+      IMAGE: '/images/starter/brands/qywx.jpg',
+      // IMAGE_WHITE: '/images/starter/brands/uideck-white.svg',
+      // URL: 'https://uideck.com/',
+      TITLE: 'uideck'
+    },
+    {
+      IMAGE: '/images/starter/brands/xhs.jpg',
+      // IMAGE_WHITE: '/images/starter/brands/ayroui-white.svg',
+      // URL: 'https://ayroui.com/',
+      TITLE: 'ayroui'
+    }
+  ],
+
 
   STARTER_FOOTER_SLOGAN: '做你申请季的定海神针',
 
