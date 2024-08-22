@@ -168,7 +168,7 @@ const CONFIG = {
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
   STARTER_CONTACT_EMAIL_TEXT: 'dreamcoachbt@outlook.com',
 
-  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/gzh.jpg',
