@@ -59,12 +59,12 @@ export const Testimonials = () => {
     loadExternal()
   }, [])
   // 用户评分
-  // const ratings = [1, 2, 3, 4, 5]
-  // const STARTER_TESTIMONIALS_ITEMS = siteConfig(
-  //   'STARTER_TESTIMONIALS_ITEMS',
-  //   [],
-  //   CONFIG
-  // )
+  const ratings = [1, 2, 3, 4, 5]
+  const STARTER_TESTIMONIALS_ITEMS = siteConfig(
+    'STARTER_TESTIMONIALS_ITEMS',
+    [],
+    CONFIG
+  )
   return (
     <>
       {/* <!-- ====== Testimonial Section Start --> */}
@@ -97,7 +97,7 @@ export const Testimonials = () => {
                     <div key={index} className='swiper-slide'>
                       <div className='rounded-xl bg-white px-4 py-[30px] shadow-testimonial dark:bg-dark sm:px-[30px]'>
                         <div className='mb-[18px] flex items-center gap-[2px]'>
-                          {ratings.map((rating, index) => (
+                          {/* {ratings.map((rating, index) => (
                             <img
                               key={index}
                               alt='star icon' // 为每个图片设置唯一的 key 属性
@@ -107,7 +107,7 @@ export const Testimonials = () => {
                                 CONFIG
                               )}
                             />
-                          ))}
+                          ))} */}
                         </div>
 
                         <p className='mb-6 text-base text-body-color dark:text-dark-6'>

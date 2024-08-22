@@ -113,7 +113,7 @@ const CONFIG = {
   STARTER_TESTIMONIALS_TITLE: '我们的战绩',
   STARTER_TESTIMONIALS_TEXT_1: '我们的用户实力',
   // STARTER_TESTIMONIALS_TEXT_2: '',
-  // STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
+  STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TESTIMONIALS_ITEMS: [
