@@ -60,8 +60,7 @@ const CONFIG = {
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: false, // ABOUT区块开关
   STARTER_ABOUT_TITLE: 'title',
-  STARTER_ABOUT_TEXT:
-    'test',
+  STARTER_ABOUT_TEXT: 'test',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: '',
   STARTER_ABOUT_IMAGE_1: '/images/starter/hero/DC.png',
@@ -110,8 +109,8 @@ const CONFIG = {
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
-  STARTER_TESTIMONIALS_TITLE: '我们的战绩',
-  STARTER_TESTIMONIALS_TEXT_1: '我们的用户实力',
+  STARTER_TESTIMONIALS_TITLE: '学员画像',
+  STARTER_TESTIMONIALS_TEXT_1: '我们的学员选科',
   // STARTER_TESTIMONIALS_TEXT_2: '',
   STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
 
@@ -189,32 +188,35 @@ const CONFIG = {
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
   STARTER_TEAM_TITLE: '院校录取',
-  STARTER_TEAM_TEXT_1: '我们的团队',
-  STARTER_TEAM_TEXT_2:
-    '描述',
+  STARTER_TEAM_TEXT_1: '我们的产品实力',
+  STARTER_TEAM_TEXT_2: '',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
     {
-      STARTER_TEAM_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa06c61bb-980e-4180-bc18-c15f92c78bb4%2Ftangly1024.jpg?table=collection&id=8e7acf17-de09-4fa1-abde-b5b80ad4a813&t=8e7acf17-de09-4fa1-abde-b5b80ad4a813&width=100&cache=v2',
-      STARTER_TEAM_ITEM_NICKNAME: 'Sam',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
-    },
-    {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
-      STARTER_TEAM_ITEM_NICKNAME: '-',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
+      STARTER_TEAM_ITEM_NICKNAME: '芝加哥大学',
+      STARTER_TEAM_ITEM_DESCRIPTION: '1枚'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
-      STARTER_TEAM_ITEM_NICKNAME: '-',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Digital Marketer'
+      STARTER_TEAM_ITEM_NICKNAME: '耶鲁大学',
+      STARTER_TEAM_ITEM_DESCRIPTION: '1枚'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
-      STARTER_TEAM_ITEM_NICKNAME: '-',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
+      STARTER_TEAM_ITEM_NICKNAME: '牛津大学',
+      STARTER_TEAM_ITEM_DESCRIPTION: '1枚'
+    },
+    {
+      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-04.png',
+      STARTER_TEAM_ITEM_NICKNAME: '剑桥大学',
+      STARTER_TEAM_ITEM_DESCRIPTION: '4枚'
+    },
+    {
+      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-04.png',
+      STARTER_TEAM_ITEM_NICKNAME: '剑桥大学',
+      STARTER_TEAM_ITEM_DESCRIPTION: '4枚'
     }
   ],
 
