@@ -155,6 +155,11 @@ export const Footer = props => {
                       className='px-1 text-gray-1 hover:underline'>
                       NotionNext {siteConfig('VERSION')}
                     </a> */}
+                    <img 
+                      src='images/starter/备案图标.png' 
+                      alt='公安备案' 
+                      className='mt-2' 
+                    />
                     <a 
                       href="https://beian.mps.gov.cn/#/query/webSearch?code=11010502055819" 
                       rel="noreferrer" 
@@ -164,7 +169,6 @@ export const Footer = props => {
                   </p>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
