@@ -15,19 +15,19 @@ const CONFIG = {
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '开始注册', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
-    'https://dcndfohpqlex.feishu.cn/share/base/form/shrcnKIvsReNWAjbFCz3XoVKcdf', // 英雄区按钮
+    'https://dreamcoach.authing.cn', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: '立刻体验', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://dreamcoach.notion.site/c52c8ab8a3174bf5937f7fbd6394702d?pvs=74', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://theastra.ai', // 英雄区按钮
   // STARTER_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/DC.png', // 产品预览图 ，默认读取public目录下图片
 
   // 顶部右侧导航暗流
   STARTER_NAV_BUTTON_1_TEXT: '注册',
-  STARTER_NAV_BUTTON_1_URL: 'https://dcndfohpqlex.feishu.cn/share/base/form/shrcnKIvsReNWAjbFCz3XoVKcdf',
+  STARTER_NAV_BUTTON_1_URL: 'https://dreamcoach.authing.cn',
 
   STARTER_NAV_BUTTON_2_TEXT: '体验',
-  STARTER_NAV_BUTTON_2_URL: 'https://dreamcoach.notion.site/c52c8ab8a3174bf5937f7fbd6394702d?pvs=74',
+  STARTER_NAV_BUTTON_2_URL: 'https://theastra.ai',
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
