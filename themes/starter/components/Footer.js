@@ -146,7 +146,7 @@ export const Footer = props => {
               {/* copyright */}
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
                 <div className='my-1 flex justify-center md:justify-end'>
-                  <p className='text-base text-gray-7'>
+                  <p className='text-base text-gray-7 flex items-center'>
                     {/* Designed and Developed by
                     <a
                       href='https://github.com/tangly1024/NotionNext'
@@ -155,15 +155,15 @@ export const Footer = props => {
                       className='px-1 text-gray-1 hover:underline'>
                       NotionNext {siteConfig('VERSION')}
                     </a> */}
+                    <img 
+                      src='images/starter/备案图标.png' 
+                      alt='公安备案' 
+                      className='mr-2 mt-1' 
+                    />
                     <a 
                       href="https://beian.mps.gov.cn/#/query/webSearch?code=11010502055819" 
                       rel="noreferrer" 
                       target="_blank">
-                      <img 
-                        src='images/starter/备案图标.png' 
-                        alt='公安备案' 
-                        className='mt-2 mr-2' 
-                      />
                       京公网安备11010502055819
                     </a>
                   </p>
